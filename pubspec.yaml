@@ -74,6 +74,9 @@ flutter:
     - assets/imgs/github.png
     - assets/imgs/whatsapp.png
     - assets/imgs/email.png
+    - assets/imgs/TON_menu.png
+    - assets/imgs/TON_game.png
+    - assets/imgs/Deli.png
         
 
   # An image asset can refer to one or more resolution-specific "variants", see

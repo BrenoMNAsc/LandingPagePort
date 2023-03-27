@@ -71,12 +71,12 @@ class _AboutMeState extends State<AboutMe> {
                 decoration: BoxDecoration(
                     border: Border.all(
                         color: 
-                        const Color.fromRGBO(69, 74, 222, 1), width: 10),
+                        const Color.fromRGBO(69, 74, 222, 0), width: 10),
                     borderRadius: BorderRadius.circular(1000)),
                 child: ClipRRect(
                     borderRadius: BorderRadius.circular(1000),
                     child: ConstrainedBox(
-                      constraints: const BoxConstraints(maxWidth: 400, maxHeight: 400),
+                      constraints: const BoxConstraints(maxWidth: 300, maxHeight: 300),
                       child: const Image(
                           fit: BoxFit.cover,
                           image: AssetImage("assets/imgs/imgProfile.png")),

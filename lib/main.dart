@@ -51,7 +51,6 @@ class _MyAppState extends State<MyApp> {
                       color: Colors.white,
                       fontSize: 18,
                       fontWeight: FontWeight.w700),
-                  
                 ),
               ),
             )
@@ -182,16 +181,20 @@ class _MyAppState extends State<MyApp> {
                                     mainAxisAlignment: MainAxisAlignment.start,
                                     children: [
                                         Portfolio(
-                                          name: "Deli da Persy - Sistema de estoque",
+                                          name:
+                                              "Deli da Persy - Sistema de estoque",
                                           desc:
                                               "Esse sistema foi desenvolvido usando WindowsForm (c#), sendo uma aplicação Windows. O projeto consistia em um sistema que fosse capaz de gerenciar o estoque de um café especializado em jogos de tabuleiro localizado em Juazeiro do Norte. Além disso, o sistema registrava as receitas e tirava automaticamente do estoque quando necessário. Por fim, o sistema era integrado com banco de dados (noSQL) da AWS, o DynamoDB.",
-                                          images: "assets/imgs/placeHolder.png",
+                                          images: "assets/imgs/Deli.png",
+                                          image2: null,
                                         ),
                                         Portfolio(
-                                          name: "Cariri Delivery - Aplicativo mobile",
+                                          name:
+                                              "Cariri Delivery - Aplicativo mobile",
                                           desc:
                                               "Desenvolvimento mobile feito com base em uma interface de redesign feita no Figma. Trata-se de um aplicativo de delivery de comida para Android, usando Framework Flutter, com as telas de início, restaurante e menu do restaurante. Este aplicativo é completamente interativo e possui integração com uma MockAPI.",
                                           images: "assets/imgs/placeHolder.png",
+                                          image2: null,
                                         )
                                       ])
                                 : Row(
@@ -199,16 +202,20 @@ class _MyAppState extends State<MyApp> {
                                         MainAxisAlignment.spaceAround,
                                     children: [
                                         Portfolio(
-                                          name: "Deli da Persy - Sistema de estoque",
+                                          name:
+                                              "Deli da Persy - Sistema de estoque",
                                           desc:
                                               "Esse sistema foi desenvolvido usando WindowsForm (c#), sendo uma aplicação Windows. O projeto consistia em um sistema que fosse capaz de gerenciar o estoque de um café especializado em jogos de tabuleiro localizado em Juazeiro do Norte. Além disso, o sistema registrava as receitas e tirava automaticamente do estoque quando necessário. Por fim, o sistema era integrado com banco de dados (noSQL) da AWS, o DynamoDB.",
-                                          images: "assets/imgs/placeHolder.png",
+                                          images: "assets/imgs/Deli.png",
+                                          image2: null,
                                         ),
                                         Portfolio(
-                                          name: "Cariri Delivery - Aplicativo mobile",
+                                          name:
+                                              "Cariri Delivery - Aplicativo mobile",
                                           desc:
                                               "Desenvolvimento mobile feito com base em uma interface de redesign feita no Figma. Trata-se de um aplicativo de delivery de comida para Android, usando Framework Flutter, com as telas de início, restaurante e menu do restaurante. Este aplicativo é completamente interativo e possui integração com uma MockAPI.",
                                           images: "assets/imgs/placeHolder.png",
+                                          image2: null,
                                         )
                                       ]),
                           )),
@@ -230,14 +237,15 @@ class _MyAppState extends State<MyApp> {
                                             name: "Tower of Necrolord - jogo",
                                             desc:
                                                 "Projeto desenvolvido em Python com biblioteca Pygame para a disciplina de Laboratório do curso de Ciência da Computação da UFCA. O jogo é do gênero Tower Defense e sua engine foi feita do zero usando conceitos de programação orientada a objetos.*Todas as pixel arts, exceto fundo do menu, foram desenhados por mim para o jogo.",
-                                            images:
-                                                "assets/imgs/placeHolder.png",
+                                            images: "assets/imgs/TON_menu.png",
+                                            image2: "assets/imgs/TON_game.png",
                                           ),
                                           Portfolio(
                                             name: "Breno Mota - Landing page ",
                                             desc:
                                                 "A landing page presente foi feita inteiramente no Flutter, trata-se de um site estático completamente responsivo para diferentes telas e com animações de scroll.",
                                             images: null,
+                                            image2: null,
                                           )
                                         ])
                                   : Row(
@@ -248,14 +256,15 @@ class _MyAppState extends State<MyApp> {
                                             name: "Tower of Necrolord - jogo",
                                             desc:
                                                 "Projeto desenvolvido em Python com biblioteca Pygame para a disciplina de Laboratório do curso de Ciência da Computação da UFCA. O jogo é do gênero Tower Defense e sua engine foi feita do zero usando conceitos de programação orientada a objetos.\n*Todas as pixel arts, exceto fundo do menu, foram desenhados por mim para o jogo.",
-                                            images:
-                                                "assets/imgs/placeHolder.png",
+                                            images: "assets/imgs/TON_menu.png",
+                                            image2: "assets/imgs/TON_game.png",
                                           ),
                                           Portfolio(
                                             name: "Breno Mota - Landing page ",
                                             desc:
                                                 "A landing page presente foi feita inteiramente no Flutter, trata-se de um site estático completamente responsivo para diferentes telas e com animações de scroll.",
                                             images: null,
+                                            image2: null,
                                           )
                                         ])))
                     ]),
